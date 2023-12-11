@@ -1,19 +1,3 @@
-# Day 1: Trebuchet?!
-# Part 1 of the puzzle
-
-# Description of a puzzle: 
-# - the input is a .csv file that contains strings
-# - on each line, the needed value can be found by combining the first digit and the last digit (in that order) to form a single two-digit number
-# - if there are no digits to be found, then the resulting number is 0
-# - if there's only one digit found, then it serves as both the first digit and the last digit
-# - at the end, we need to find the sum of all two-digits
-# For example:
-# 1abc2
-# pqr3stu8vwx
-# a1b2c3d4e5f
-# treb7uchet
-# In this example, the calibration values of these four lines are 12, 38, 15, and 77. Adding these together produces 142.
-
 # Import the 'csv' module to work with CSV files
 import csv
 
